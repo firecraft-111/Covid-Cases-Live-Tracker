@@ -10,7 +10,7 @@ def datacollected():
         plyer.notification.notify(
         title=title,
         message=message,
-        app_icon='E:\Programs\Corona Virus Live Tracker\icorona.ico',
+        app_icon='icorona.ico',
         timeout=15
         )
     url ="https://www.worldometers.info/coronavirus/"
@@ -107,7 +107,7 @@ coro=Tk()
 coro.title("Corona Virus Information")
 coro.geometry('800x500+200+100')
 coro.configure(bg='#046173')
-coro.iconbitmap('E:\Programs\Corona Virus Live Tracker\icorona.ico')
+coro.iconbitmap('icorona.ico')
 
 flist=[]
 path=''
